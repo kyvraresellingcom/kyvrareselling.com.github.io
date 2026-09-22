@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KYVRA — Scarpe / Vestiti</title>
+<meta name="description" content="KYVRA — Scarpe e vestiti. Catalogo online.">
+<style>
+:root{--bg:#030507;--text:#f5f7fb;--muted:#9ca6b5;--blue:#00a8ff;--orange:#ff8a22;--line:#173248}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% 0,#071421 0,#030507 38%,#020304 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+a{text-decoration:none;color:inherit}.nav{position:sticky;top:0;z-index:10;background:rgba(2,4,7,.86);backdrop-filter:blur(12px);border-bottom:1px solid #10202d}
+.navin{max-width:1180px;margin:auto;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 22px}.brand{letter-spacing:8px;font-weight:700;font-size:20px}.brand span{color:#b9e9ff}.links{display:flex;gap:28px;font-size:13px;letter-spacing:2px}.links a:hover{color:#48c9ff}
+.hero{min-height:680px;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(180deg,rgba(0,0,0,.12),rgba(0,0,0,.72)),url('assets/hero.jpeg') center/cover no-repeat;position:relative}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 35%,transparent 0,rgba(0,0,0,.18) 45%,rgba(0,0,0,.72) 100%);pointer-events:none}
+.heroin{position:relative;z-index:1;max-width:780px;padding:50px 20px}.k{font-size:80px;font-weight:800;letter-spacing:-8px;background:linear-gradient(110deg,#cfeaff,#fff,#ff9a3d);-webkit-background-clip:text;color:transparent}.hero h1{font-size:44px;letter-spacing:12px;margin:4px 0 8px}.hero p{letter-spacing:6px;color:#d8dee8}.cta{display:inline-block;margin-top:24px;padding:15px 28px;border:1px solid var(--blue);border-radius:30px;background:rgba(0,0,0,.35);box-shadow:0 0 25px rgba(0,168,255,.18);font-weight:700;letter-spacing:1px}.cta:hover{border-color:var(--orange);box-shadow:0 0 25px rgba(255,138,34,.2)}
+.section{max-width:1180px;margin:auto;padding:70px 22px}.section h2{text-align:center;letter-spacing:7px;font-size:34px;margin:0 0 36px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:linear-gradient(180deg,#070b10,#030507);border:1px solid #16405d;border-radius:14px;padding:18px;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#2bbaff}.pic{height:230px;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}.pic img{width:100%;height:100%;object-fit:contain}.card h3{font-size:16px;margin:18px 0 5px}.sub{color:var(--muted);font-size:13px}.price{font-size:19px;font-weight:700;margin:12px 0}.buy{display:block;text-align:center;padding:11px;border:1px solid #08d7b0;border-radius:24px;color:#dffff8;font-weight:700;font-size:13px}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;border-top:1px solid #183345;border-bottom:1px solid #183345}.feature{padding:28px 18px;text-align:center}.feature b{display:block;margin-bottom:7px}.feature span{font-size:12px;color:var(--muted)}
+footer{border-top:1px solid #102737;padding:40px 22px;color:var(--muted);text-align:center;font-size:12px;letter-spacing:1px}.notice{max-width:900px;margin:0 auto 35px;padding:14px;border:1px solid #6a3e18;border-radius:10px;background:#100b06;color:#d7c3ad;font-size:12px;line-height:1.5}
+@media(max-width:800px){.links{display:none}.hero{min-height:590px}.k{font-size:58px}.hero h1{font-size:30px;letter-spacing:8px}.grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.grid{grid-template-columns:1fr}.pic{height:260px}.hero{min-height:520px}.hero h1{font-size:25px}.section{padding:50px 15px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin"><div class="brand"><span>K</span> Y V R A</div><div class="links"><a href="#">HOME</a><a href="#shop">SHOP</a><a href="#info">INFO</a><a href="#contatti">CONTATTI</a></div></div></nav>
+
+<header class="hero">
+  <div class="heroin">
+    <div class="k">K</div>
+    <h1>KYVRA</h1>
+    <p>SCARPE / VESTITI</p>
+    <p>STILE, QUALITÀ, TENDENZA.</p>
+    <a class="cta" href="#shop">SCOPRI IL CATALOGO →</a>
+  </div>
+</header>
+
+<section class="section" id="shop">
+  <h2>BEST SELLERS</h2>
+  <div class="grid">
+    <article class="card">
+      <div class="pic"><img src="assets/lv-trainer.jpeg" alt="Louis Vuitton Trainer"></div>
+      <h3>LV TRAINER</h3><div class="sub">Louis Vuitton</div><div class="price">€ 119,99</div>
+      <a class="buy" href="#contatti">ACQUISTA ORA</a>
+    </article>
+    <article class="card">
+      <div class="pic"><div style="font-size:72px;color:#111">POLO</div></div>
+      <h3>POLO RALPH LAUREN</h3><div class="sub">Polo</div><div class="price">€ 49,99</div>
+      <a class="buy" href="#contatti">ACQUISTA ORA</a>
+    </article>
+    <article class="card">
+      <div class="pic"><img src="assets/balenciaga.jpeg" alt="Balenciaga Track"></div>
+      <h3>TRACK SNEAKER</h3><div class="sub">Balenciaga</div><div class="price">€ 134,99</div>
+      <a class="buy" href="#contatti">ACQUISTA ORA</a>
+    </article>
+    <article class="card">
+      <div class="pic"><div style="font-size:54px;color:#111">HOODIE</div></div>
+      <h3>STREET HOODIE</h3><div class="sub">KYVRA</div><div class="price">€ 79,99</div>
+      <a class="buy" href="#contatti">ACQUISTA ORA</a>
+    </article>
+  </div>
+</section>
+
+<section class="features" id="info">
+  <div class="feature"><b>🚚 SPEDIZIONE</b><span>Con corriere espresso</span></div>
+  <div class="feature"><b>🔒 PAGAMENTI</b><span>Da concordare con il cliente</span></div>
+  <div class="feature"><b>💬 ASSISTENZA</b><span>Contatto diretto per gli ordini</span></div>
+  <div class="feature"><b>★ CATALOGO</b><span>Prodotti selezionati</span></div>
+</section>
+
+<section class="section" id="contatti">
+  <div class="notice">Prima di pubblicare il negozio, sostituisci i contatti e verifica che i prodotti di marca siano autentici e che tu abbia il diritto di rivenderli. Completa inoltre le informazioni legali richieste per la vendita online.</div>
+  <h2>ORDINA</h2>
+  <p style="text-align:center;color:#aab3c0">Inserisci qui il tuo WhatsApp o Instagram per ricevere gli ordini.</p>
+  <div style="text-align:center;margin-top:25px"><a class="cta" href="https://wa.me/39XXXXXXXXXX">CONTATTAMI SU WHATSAPP →</a></div>
+</section>
+
+<footer>© 2026 KYVRA — Scarpe / Vestiti · Privacy · Termini e condizioni</footer>
+</body>
+</html>
